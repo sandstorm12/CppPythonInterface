@@ -17,9 +17,4 @@ BOOST_PYTHON_MODULE(module)
         "mean",
         mean
     );
-
-    boost::python::def(
-        "mean_loop",
-        mean_loop
-    );
 }
