@@ -25,14 +25,12 @@ python3 main.py
 ## Benchmark
 | Iterations | Python time (sec) | C++ time (sec) |
 |------------|-------------------|----------------|
-| 1000       | .0001             | .0016          |
-| 1000000    | .61               | .07            |
-
-** Most time is spend accessing and assigning the dictionary
+| 1000       | .0007             | .0010          |
+| 10000      | .0040             | .0036          |
 
 ## Urgent issues
 1. [Nothing yet]
 
 
 ## Issues and future work
-1. Why dictionary iteration and assignment in C++ is so slow?
+1. Why item assignment for python objects in C++ is so slow?
