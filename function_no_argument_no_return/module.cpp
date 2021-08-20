@@ -1,12 +1,12 @@
 #include <iostream>
-#include <boost/python.hpp>
+#include <pybind11/pybind11.h>
 
 
 void print_hello_world() {
     std::cout << "Hello World" << std::endl;
 }
 
-BOOST_PYTHON_MODULE(module)
+PYBIND11_MODULE(module, m)
 {
-    boost::python::def("print_hello_world", print_hello_world);
+    m.def("print_hello_world", &print_hello_world);
 }

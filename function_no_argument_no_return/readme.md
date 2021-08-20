@@ -6,15 +6,17 @@ A simple cpp function interfaced with python to print hello world.
 
 Install Boost library:
 ```bash
-sudo apt-get install libboost-all-dev
-sudo apt-get install python-dev libxml2-dev libxslt-dev
+sudo apt install pybind11-dev python
+sudo apt install python3.x-dev
 ```
+
+* x would be your arbitray python version
 
 ## Use
 
 Build the cpp file as a shared library:
 ```bash
-cmake . && cmake --build . --config Release
+cmake -DPYBIND11_PYTHON_VERSION=3.8 . && cmake --build . --config Release
 ```
 
 Run python code:

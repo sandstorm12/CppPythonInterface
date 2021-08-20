@@ -1,6 +1,6 @@
 # CppPythonInterface
 
-How to use cpp in python.
+How to use cpp in python using pybind11 library.
 
 ## Notice
 
