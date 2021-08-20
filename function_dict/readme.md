@@ -1,10 +1,10 @@
-# Function interface with no argument or return value
+# Function interface dictionary
 
 A number of simple cpp function to do simple operations on python dicts.
 
 ## Setup
 
-Install Boost library:
+Install Pybind11 library:
 ```bash
 sudo apt install pybind11-dev python
 sudo apt install python3.x-dev
