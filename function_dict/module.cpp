@@ -8,7 +8,7 @@ int sum(pybind11::dict &input_dict) {
         sum += pybind11::cast<int>(item.second);
     }
     
-    return 0;
+    return sum;
 }
 
 
