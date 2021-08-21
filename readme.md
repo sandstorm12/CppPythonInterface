@@ -17,6 +17,7 @@ This is a personal project under development. All bug reports and feature reques
 4. Add sample: use cpp classes in python
 5. Add sample: use multi-threading of cpp in python
 6. Add an outline to the main readme.
+7. Check this: <https://stackoverflow.com/questions/47309688/how-to-use-pybind11-in-multithreaded-application>
 
 
 ## Contributors
