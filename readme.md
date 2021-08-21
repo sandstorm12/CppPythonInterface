@@ -16,6 +16,7 @@ This is a personal project under development. All bug reports and feature reques
 3. Add sample: pass numpy array between python and cpp
 4. Add sample: use cpp classes in python
 5. Add sample: use multi-threading of cpp in python
+6. Add an outline to the main readme.
 
 
 ## Contributors
