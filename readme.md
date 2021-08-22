@@ -8,6 +8,10 @@ How to use cpp in python using pybind11 library.
 This is a personal project under development. All bug reports and feature requests are appreciated.
 
 
+## Fun fact
+As of current, the Pytorch framework is using Pybind11 for C++/Python binding. Tensorflow framework community is also pushing to migrate from SWIG to Pybind11.
+
+
 ## Urgent issues and future work
 1. [Nothing yet]
 
